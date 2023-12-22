@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Parser App</title>
+</head>
+<body>
+  <h1>Search Products</h1>
+
+  <h2>Search by ID</h2>
+  <form action="/searchById" method="post">
+    <label for="searchId">Product ID:</label>
+    <input type="number" id="searchId" name="searchId" required>
+    <br>
+    <button type="submit">Search by ID</button>
+  </form>
+
+  <h2>Search by Title</h2>
+  <form action="/searchByTitle" method="post">
+    <label for="searchTitle">Product Title:</label>
+    <input type="text" id="searchTitle" name="searchTitle" required>
+    <br>
+    <button type="submit">Search by Title</button>
+  </form>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Parser App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Search Products</h1>
+
+    <div class="search-form" id="searchByIdForm">
+      <h2>Search by ID</h2>
+      <form action="/searchById" method="post">
+        <label for="searchId">Product ID:</label>
+        <input type="number" id="searchId" name="searchId" placeholder="ID" required>
+        <br>
+        <button type="submit">Search by ID</button>
+      </form>
+    </div>
+
+    <div class="search-form" id="searchByTitleForm">
+      <h2>Search by Title</h2>
+      <form action="/searchByTitle" method="post">
+        <label for="searchTitle">Product Title:</label>
+        <input type="text" id="searchTitle" name="searchTitle" placeholder="Title" required>
+        <br>
+        <button type="submit">Search by Title</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
